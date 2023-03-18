@@ -1,0 +1,78 @@
+@media (max-width: 576px) {
+  /* NAVBAR */
+
+  .nav {
+    display: block !important;
+  }
+  .nav-img-mobile {
+    display: none;
+  }
+  .nav-item {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* ABOUT */
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  .d-flex-mobile {
+    height: 100vh;
+  }
+  #target {
+    padding: 5px;
+    margin: 0;
+    height: 50vh;
+  }
+  #personal-info {
+    padding: 5px;
+    height: 50vh;
+  }
+  #about h1 {
+    padding-top: 40px;
+  }
+  #about ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
+  /* JOB */
+
+  .container-info {
+    grid-template-columns: 1fr;
+
+    margin: 10px 10px 10px 10px;
+  }
+
+  .container-info h1 {
+    font-size: 30px;
+  }
+  .container-info h2 {
+    font-size: 16px;
+  }
+  .container-info h3 {
+    font-size: 14px;
+  }
+
+  /* CERTIFICATE */
+
+  .certi-container {
+    grid-template-columns: 1fr;
+  }
+  .c1,
+  .c2,
+  .c3 {
+    border: none;
+    border-bottom: solid 1px #d6c08d;
+  }
+
+  /* PROJECT */
+
+  .container-project {
+    flex-direction: column;
+    gap: 40px;
+  }
+  #project h1 {
+    font-size: 36px;
+  }
+}

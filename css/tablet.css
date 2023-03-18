@@ -1,0 +1,59 @@
+@media (max-width: 991px) {
+  /* NAVBAR */
+  .avt {
+    display: none;
+  }
+  .nav-item {
+    padding: 10px 10px 10px 10px;
+  }
+
+  /* ABOUT */
+
+  #target {
+    padding: 50px;
+  }
+
+  /* JOB INFO */
+
+  .container-info {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px 10px 10px 10px;
+  }
+
+  /* CERTI */
+
+  .certi-container {
+    margin-left: 10px;
+  }
+  .c1,
+  .c2,
+  .c3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certi-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PROJECT */
+
+  #project {
+    margin: 0;
+  }
+
+  .container-project {
+    margin-left: 10px;
+  }
+
+  .d-flex-tablet {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #project h2 {
+    font-size: 20px;
+  }
+}
